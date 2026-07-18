@@ -31,6 +31,7 @@
         { username: "vanneat", password: "vanneat", role: "Customer", requires2FA: true },
         { username: "mengly", password: "mengly", role: "Customer", requires2FA: true },
         { username: "leyu", password: "leyu", role: "Customer", requires2FA: true },
+        { username: "test", password: "test", role: "Test User", requires2FA: true },
         { username: "huy", password: "huy", role: "Customer", requires2FA: true },
         { username: "sengchhat", password: "sengchhat", role: "VIP Customer", requires2FA: true }
     ];
