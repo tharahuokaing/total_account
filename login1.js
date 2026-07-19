@@ -178,7 +178,7 @@
         container.innerHTML = `
             <div class="dashboard-grid">
                 
-                            <!-- Card 1: Total Accounts -->
+                <!-- Card 1: Total Accounts -->
                 <div class="dashboard-card">
                     <img src="total_account.jpg" alt="Accounts Icon" class="card-icon" style="width:120px; height:120px;">
                     <h3 id="accountCount">15,000</h3>
