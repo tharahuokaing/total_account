@@ -40,10 +40,10 @@
        MOCK TRANSACTION SOURCE DATA
     ========================================================= */
     const MOCK_TRANSACTIONS = [
-        { id: "TXN-90214", account: "Acc...8841 (Thorn)", type: "Bakong Transfer", amount: "$1,250.00", time: "16:31:02", status: "Success" },
-        { id: "TXN-90215", account: "Acc...1092 (Vanneat)", type: "Interbank Pay", amount: "$320.50", time: "16:32:15", status: "Success" },
-        { id: "TXN-90216", account: "Acc...4412 (Mengly)", type: "ATM Cash Deposit", amount: "$5,000.00", time: "16:34:00", status: "Success" },
-        { id: "TXN-90217", account: "Acc...0029 (Leyu)", type: "Clearing Settlement", amount: "$12,450.00", time: "16:35:48", status: "Pending" }
+        { id: "TXN-90214", account: "Acc...8841 (Thorn)", type: "Bakong Transfer", amount: "$0", time: "00:00:00", status: "Success" },
+        { id: "TXN-90215", account: "Acc...1092 (Vanneat)", type: "Interbank Pay", amount: "$0", time: "00:00:00", status: "Success" },
+        { id: "TXN-90216", account: "Acc...4412 (Mengly)", type: "ATM Cash Deposit", amount: "$0", time: "00:00:00", status: "Success" },
+        { id: "TXN-90217", account: "Acc...0029 (Leyu)", type: "Clearing Settlement", amount: "$0", time: "00:00:00", status: "Pending" }
     ];
    
     /* =========================================================
