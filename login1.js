@@ -45,10 +45,10 @@
        MOCK TRANSACTION SOURCE DATA
     ========================================================= */
     const MOCK_TRANSACTIONS = [
-        { id: "TXN-90214", account: "Acc...8841 (Thorn)", type: "Bakong Transfer", amount: "$1,250.00", time: "16:31:02", status: "Success" },
-        { id: "TXN-90215", account: "Acc...1092 (Vanneat)", type: "Interbank Pay", amount: "$320.50", time: "16:32:15", status: "Success" },
-        { id: "TXN-90216", account: "Acc...4412 (Mengly)", type: "ATM Cash Deposit", amount: "$5,000.00", time: "16:34:00", status: "Success" },
-        { id: "TXN-90217", account: "Acc...0029 (Leyu)", type: "Clearing Settlement", amount: "$12,450.00", time: "16:35:48", status: "Pending" }
+        { id: "TXN-90214", account: "Acc...8841 (Thorn)", type: "Bakong Transfer", amount: "$0", time: "00:00:00", status: "Success" },
+        { id: "TXN-90215", account: "Acc...1092 (Vanneat)", type: "Interbank Pay", amount: "$0", time: "00:00:00", status: "Success" },
+        { id: "TXN-90216", account: "Acc...4412 (Mengly)", type: "ATM Cash Deposit", amount: "$0", time: "00:00:00", status: "Success" },
+        { id: "TXN-90217", account: "Acc...0029 (Leyu)", type: "Clearing Settlement", amount: "$0", time: "00:00:00", status: "Pending" }
     ];
 
     /* =========================================================
@@ -164,9 +164,9 @@
     function initializeDashboardData() {
         log("Dashboard active. Injecting financial records into DOM nodes...");
         if (document.getElementById("accountCount")) {
-            document.getElementById("accountCount").textContent = "15,000";
-            document.getElementById("depositTotal").textContent = "$252,910,000";
-            document.getElementById("txCount").textContent = "40,000";
+            document.getElementById("accountCount").textContent = "$30000";
+            document.getElementById("depositTotal").textContent = "$300,050,000";
+            document.getElementById("txCount").textContent = "$0";
         }
     }
 
@@ -186,7 +186,7 @@
                 <!-- Card 1: Total Accounts -->
                 <div class="dashboard-card">
                     <img src="total_account.jpg" alt="Accounts Icon" class="card-icon" style="width:120px; height:120px;">
-                    <h3 id="accountCount">15,000</h3>
+                    <h3 id="accountCount">30,000</h3>
                     <p>Total Accounts</p>
                     <a href="https://tharahuokaing.github.io/total_account/" class="card-link">View Details</a>
                 </div>
@@ -194,7 +194,7 @@
                 <!-- Card 2: Total Deposits -->
                 <div class="dashboard-card">
                     <img src="total_deposit.jpg" alt="Deposits Icon" class="card-icon" style="width:120px; height:120px;">
-                    <h3 id="depositTotal">$352,910,000</h3>
+                    <h3 id="depositTotal">$30,050,000</h3>
                     <p>Total Deposits</p>
                     <a href="https://tharahuokaing.github.io/deposit/" class="card-link">View Details</a>
                 </div>
@@ -202,7 +202,7 @@
                 <!-- Card 3: Transaction Volumes -->
                 <div class="dashboard-card">
                     <img src="transaction_volumn.jpg" alt="Transactions Icon" class="card-icon" style="width:120px; height:120px;">
-                    <h3 id="txCount">40,000</h3>
+                    <h3 id="txCount">$0</h3>
                     <p>Transactions Processed</p>
                     <a href="https://tharahuokaing.github.io/transaction/" class="card-link">View Log</a>
                 </div>
