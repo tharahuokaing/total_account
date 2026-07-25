@@ -182,16 +182,8 @@
 
         container.innerHTML = `
             <div class="dashboard-grid">
-                
-                <!-- Card 1: Total Accounts -->
-                <div class="dashboard-card">
-                    <img src="total_account.jpg" alt="Accounts Icon" class="card-icon" style="width:120px; height:120px;">
-                    <h3 id="accountCount">30,000</h3>
-                    <p>Total Accounts</p>
-                    <a href="https://tharahuokaing.github.io/total_account/" class="card-link">View Details</a>
-                </div>
 
-                <!-- Card 2: Total Deposits -->
+                <!-- Card 1: Total Deposits -->
                 <div class="dashboard-card">
                     <img src="total_deposit.jpg" alt="Deposits Icon" class="card-icon" style="width:120px; height:120px;">
                     <h3 id="depositTotal">$30,050,000</h3>
@@ -199,7 +191,7 @@
                     <a href="https://tharahuokaing.github.io/deposit/" class="card-link">View Details</a>
                 </div>
 
-                <!-- Card 3: Transaction Volumes -->
+                <!-- Card 2: Transaction Volumes -->
                 <div class="dashboard-card">
                     <img src="transaction_volumn.jpg" alt="Transactions Icon" class="card-icon" style="width:120px; height:120px;">
                     <h3 id="txCount">$0</h3>
@@ -207,7 +199,7 @@
                     <a href="https://tharahuokaing.github.io/transaction/" class="card-link">View Log</a>
                 </div>
 
-                <!-- Card 4: System Phases -->
+                <!-- Card 3: System Phases -->
                 <div class="dashboard-card">
                     <img src="system_phase.jpg" alt="Phases Icon" class="card-icon" style="width:120px; height:120px;">
                     <h3>21</h3>
@@ -215,7 +207,7 @@
                     <a href="https://tharahuokaing.github.io/total_phase/" class="card-link">View Phase Map</a>
                 </div>
 
-                <!-- Card 5: Financial Compliance -->
+                <!-- Card 4: Financial Compliance -->
                 <div class="dashboard-card">
                     <img src="financial_complaint.jpg" alt="Compliance Icon" class="card-icon" style="width:120px; height:120px;">
                     <h3>ISO 20022</h3>
@@ -223,7 +215,7 @@
                     <a href="https://tharahuokaing.github.io/financial_compliance/" class="card-link">View Documents</a>
                 </div>
 
-                <!-- Card 6: Interbank Network -->
+                <!-- Card 5: Interbank Network -->
                 <div class="dashboard-card">
                     <img src="interbank_network.jpg" alt="Bakong Icon" class="card-icon" style="width:120px; height:120px;">
                     <h3>Bakong</h3>
@@ -231,7 +223,7 @@
                     <a href="https://tharahuokaing.github.io/interbank_network/" class="card-link">Gateway Status</a>
                 </div>
 
-                <!-- Card 7: Security Architecture -->
+                <!-- Card 6: Security Architecture -->
                 <div class="dashboard-card">
                     <img src="security_architecture.jpg" alt="SOC Icon" class="card-icon" style="width:120px; height:120px;">
                     <h3>SOC</h3>
@@ -239,7 +231,7 @@
                     <a href="https://tharahuokaing.github.io/security_architecture/" class="card-link">Live Alerts</a>
                 </div>
 
-                <!-- Card 8: Pending Clearings -->
+                <!-- Card 7: Pending Clearings -->
                 <div class="dashboard-card">
                     <img src="pending_clearing.jpg" alt="Clearing Icon" class="card-icon" style="width:120px; height:120px;">
                     <h3>0</h3>
@@ -247,7 +239,7 @@
                     <a href="https://tharahuokaing.github.io/pending_clearing/" class="card-link">Clear Queue</a>
                 </div>
 
-                <!-- Card 9: Active Audits -->
+                <!-- Card 8: Active Audits -->
                 <div class="dashboard-card">
                     <img src="active_audit.jpg" alt="Audits Icon" class="card-icon" style="width:120px; height:120px;">
                     <h3>Passed</h3>
@@ -255,7 +247,7 @@
                     <a href="https://tharahuokaing.github.io/active_audit/" class="card-link">Report Vault</a>
                 </div>
 
-                <!-- Card 10: AI Core Status -->
+                <!-- Card 9: AI Core Status -->
                 <div class="dashboard-card">
                     <img src="ai_core.jpg" alt="AI Status Icon" class="card-icon" style="width:120px; height:120px;">
                     <h3>Operational</h3>
