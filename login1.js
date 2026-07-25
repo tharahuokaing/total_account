@@ -186,7 +186,7 @@
                 <!-- Card 1: Total Deposits -->
                 <div class="dashboard-card">
                     <img src="total_deposit.jpg" alt="Deposits Icon" class="card-icon" style="width:120px; height:120px;">
-                    <h3 id="depositTotal">$30,050,000</h3>
+                    <h3 id="depositTotal">$500,050,000</h3>
                     <p>Total Deposits</p>
                     <a href="https://tharahuokaing.github.io/deposit/" class="card-link">View Details</a>
                 </div>
