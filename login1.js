@@ -194,7 +194,7 @@
                 <!-- Card 2: Transaction Volumes -->
                 <div class="dashboard-card">
                     <img src="transaction_volumn.jpg" alt="Transactions Icon" class="card-icon" style="width:120px; height:120px;">
-                    <h3 id="txCount">$0</h3>
+                    <h3 id="txCount">$79,070.50</h3>
                     <p>Transactions Processed</p>
                     <a href="https://tharahuokaing.github.io/transaction/" class="card-link">View Log</a>
                 </div>
