@@ -165,8 +165,8 @@
     function initializeDashboardData() {
         log("Dashboard active. Injecting financial records into DOM nodes...");
         if (document.getElementById("accountCount")) {
-            document.getElementById("accountCount").textContent = "$30000";
-            document.getElementById("depositTotal").textContent = "$300,050,000";
+            document.getElementById("accountCount").textContent = "$27,000";
+            document.getElementById("depositTotal").textContent = "$800,550,000";
             document.getElementById("txCount").textContent = "$0";
         }
     }
@@ -184,11 +184,11 @@
         container.innerHTML = `
             <div class="dashboard-grid">
             
-                                <!-- Card 1: Total Accounts -->
+                <!-- Card 1: Total Accounts -->
                 <div class="dashboard-card">
                     <a href="https://tharahuokaing.github.io/total_account/" style="text-decoration: none; color: inherit; display: block; height: 100%; width: 100%;">
                         <img src="total_account.jpg" alt="Accounts Icon" class="card-icon" style="width:150px; height:150px;">
-                        <h3 id="accountCount">$15,000</h3>
+                        <h3 id="accountCount">$27,000</h3>
                         <p>Total Accounts</p>
                         <span class="card-link">View Details</span>
                     </a>
@@ -198,7 +198,7 @@
                 <div class="dashboard-card">
                     <a href="https://tharahuokaing.github.io/deposit/" style="text-decoration: none; color: inherit; display: block; height: 100%; width: 100%;">
                         <img src="total_deposit.jpg" alt="Deposits Icon" class="card-icon" style="width:150px; height:150px;">
-                        <h3 id="depositTotal">$700,050,000</h3>
+                        <h3 id="depositTotal">$800,550,000</h3>
                         <p>Total Deposits</p>
                         <span class="card-link">View Details</span>
                     </a>
