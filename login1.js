@@ -20,7 +20,6 @@
         { username: "mek", password: "mek", role: "Customer", requires2FA: false },
         { username: "kuo", password: "kuo", role: "Customer", requires2FA: false },
         { username: "test", password: "test", role: "Test User", requires2FA: false },
-        { username: "test3", password: "test3", role: "Test Customer", requires2FA: false },
         { username: "test4", password: "test4", role: "Test Customer", requires2FA: false },
         { username: "thorn", password: "thorn", role: "Customer", requires2FA: false },
         { username: "sansopheata", password: "sansopheata", role: "Chief Executive Officer", requires2FA: false },
@@ -38,6 +37,7 @@
         { username: "mengly", password: "mengly", role: "Customer", requires2FA: true },
         { username: "leyu", password: "leyu", role: "Customer", requires2FA: true },
         { username: "huy", password: "huy", role: "Customer", requires2FA: true },
+        { username: "ahb", password: "ahb", role: "Mr. B (Vice President)", requires2FA: true },
         { username: "sengchhat1", password: "sengchhat1", role: "Credit Officer", requires2FA: true },
         { username: "sengchhat", password: "sengchhat", role: "Director", requires2FA: true }
     ];
@@ -48,8 +48,13 @@
     const MOCK_TRANSACTIONS = [
         { id: "TXN-90214", account: "Acc...8841 (Thorn)", type: "Bakong Transfer", amount: "$0", time: "00:00:00", status: "Success" },
         { id: "TXN-90215", account: "Acc...1092 (Vanneat)", type: "Interbank Pay", amount: "$0", time: "00:00:00", status: "Success" },
-        { id: "TXN-90216", account: "Acc...4412 (Mengly)", type: "ATM Cash Deposit", amount: "$0", time: "00:00:00", status: "Success" },
-        { id: "TXN-90217", account: "Acc...0029 (Leyu)", type: "Clearing Settlement", amount: "$0", time: "00:00:00", status: "Pending" }
+        { id: "TXN-90216", account: "Acc...4412 (Mengly)", type: "ATM Cash Deposit", amount: "$10,000,000", time: "00:00:00", status: "Success" },
+        { id: "TXN-90217", account: "Acc...4412 (Men)", type: "ATM Cash Withdrawal", amount: "$0", time: "07:30:00", status: "Success" },
+        { id: "TXN-90218", account: "Acc...4412 (Sengchhat)", type: "ATM Cash Withdrawal", amount: "$0", time: "00:00:00", status: "Success" },
+        { id: "TXN-90219", account: "Acc...4412 (Huokaing Thara)", type: "ATM Cash Withdrawal", amount: "$0", time: "00:00:00", status: "Success" },      
+        { id: "TXN-90220", account: "Acc...4412 (ahb)", type: "ATM Cash Withdrawal", amount: "$0", time: "00:00:00", status: "Success" },   
+        { id: "TXN-90221", account: "Acc...4412 (kuo)", type: "ATM Cash Withdrawal", amount: "$0", time: "00:00:00", status: "Success" },
+        { id: "TXN-90222", account: "Acc...0029 (Leyu)", type: "Clearing Settlement", amount: "$0", time: "00:00:00", status: "Pending" }
     ];
 
     /* =========================================================
