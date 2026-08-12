@@ -171,7 +171,7 @@
         log("Dashboard active. Injecting financial records into DOM nodes...");
         if (document.getElementById("accountCount")) {
             document.getElementById("accountCount").textContent = "$1,350,000<";
-            document.getElementById("depositTotal").textContent = "$340,000,000";
+            document.getElementById("depositTotal").textContent = "$350,000,000";
             document.getElementById("txCount").textContent = "$1,500,000";
         }
     }
@@ -203,7 +203,7 @@
                 <div class="dashboard-card">
                     <a href="https://tharahuokaing.github.io/deposit/" style="text-decoration: none; color: inherit; display: block; height: 100%; width: 100%;">
                         <img src="total_deposit.jpg" alt="Deposits Icon" class="card-icon" style="width:150px; height:150px;">
-                        <h3 id="depositTotal">$340,000,000</h3>
+                        <h3 id="depositTotal">$350,000,000</h3>
                         <p>Total Deposits</p>
                         <span class="card-link">View Details</span>
                     </a>
@@ -255,7 +255,7 @@
                         <img src="cryptocurrency.jpg" alt="Crypto Exchange Icon" class="card-icon" style="width:150px; height:150px; object-fit: cover; border-radius: 12px;">
                         <h3 style="color: #f0b90b;">Live Markets</h3>
                         <p>Crypto Exchange Overview</p>
-                        <span class="card-link" style="color: #0ecb81;">View 30 Assets</span>
+                        <span class="card-link" style="color: #0ecb81;">View 31 Assets</span>
                     </a>
                 </div>
 
