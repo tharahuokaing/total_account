@@ -46,23 +46,23 @@
        MOCK TRANSACTION SOURCE DATA
     ========================================================= */
     const MOCK_TRANSACTIONS = 
-        { id: "TXN-KN-90218", party: "Acc...9912 (SvayMetrey)", network: "Bakong Transfer Sweep", direction: "inflow", amount: 0.00, time: "00:00:00", status: "Pending" },
-        { id: "TXN-KN-90218", party: "Acc...9912 (ChornRothanak)", network: "Bakong Transfer Sweep", direction: "inflow", amount: 0.00, time: "00:00:00", status: "Pending" },
-        { id: "TXN-KN-90219", party: "Acc...5541 (ChumchanRothanak)", network: "Real-time Gross Settlement", direction: "outflow", amount: 0.00, time: "00:00:00", status: "Pending" },
-        { id: "TXN-KN-90218", party: "Acc...9912 (LongLain)", network: "Bakong Transfer Sweep", direction: "inflow", amount: 0.00, time: "00:00:00", status: "Pending" },
-        { id: "TXN-KN-90218", party: "Acc...9912 (PhaychanRothana)", network: "Bakong Transfer Sweep", direction: "inflow", amount: 0.00, time: "00:00:00", status: "Pending" },
-        { id: "TXN-KN-90218", party: "Acc...9912 (HuokaingThara)", network: "Bakong Transfer Sweep", direction: "inflow", amount: 0.00, time: "00:00:00", status: "Pending" },
-        { id: "TXN-KN-90218", party: "Acc...9912 (SanSopheata)", network: "Bakong Transfer Sweep", direction: "inflow", amount: 0.00, time: "00:00:00", status: "Pending" },
-        { id: "TXN-KN-90218", party: "Acc...9912 (SamsoDavin)", network: "Bakong Transfer Sweep", direction: "inflow", amount: 0.00, time: "00:00:00", status: "Pending" },      
-        { id: "TXN-KN-90214", party: "Acc...8841 (Thorn)", network: "Bakong API Link", direction: "outflow", amount: 0.00, time: "00:00:00", status: "Pending" },
-        { id: "TXN-KN-90215", party: "Acc...1092 (Vanneat)", network: "FAST Clearing Node", direction: "inflow", amount: 0.00, time: "00:00:00", status: "Pending" },
-        { id: "TXN-KN-90216", party: "Acc...4412 (Mengly)", network: "Bakong Transfer Sweep", direction: "inflow", amount: 20000000.00, time: "16:34:00", status: "Success" },
-        { id: "TXN-KN-90217", party: "Acc...0029 (Leyu)", network: "National Clearing House", direction: "outflow", amount: 0.00, time: "00:00:00", status: "Pending" },
-        { id: "TXN-KN-90218", party: "Acc...9912 (Sengchhat)", network: "Bakong Transfer Sweep", direction: "inflow", amount: 16000000.00, time: "20:55:11", status: "Success" },      
-        { id: "TXN-KN-90219", party: "Acc...5541 (Chansamnang)", network: "Real-time Gross Settlement", direction: "outflow", amount: 0.00, time: "00:00:00", status: "Pending" },
-        { id: "TXN-KN-90219", party: "Acc...5541 (Nouvichaka)", network: "Real-time Gross Settlement", direction: "outflow", amount: 0.00, time: "00:00:00", status: "Pending" },
-        { id: "TXN-KN-90219", party: "Acc...5541 (Men)", network: "Interbank ISO Gateway", direction: "outflow", amount: 0.00, time: "00:00:00", status: "Pending" },
-        { id: "TXN-KN-90220", party: "Acc...1182 (Raem)", network: "Retail Mobile Gateway", direction: "outflow", amount: 0.00, time: "00:00:00", status: "Pending" }
+        { id: "TXN-KN-90218", party: "Acc...0001 (SvayMetrey)", network: "Bakong Transfer Sweep", direction: "inflow", amount: 0.00, time: "00:00:00", status: "Pending" },
+        { id: "TXN-KN-90218", party: "Acc...0002 (ChornRothanak)", network: "Bakong Transfer Sweep", direction: "inflow", amount: 0.00, time: "00:00:00", status: "Pending" },
+        { id: "TXN-KN-90219", party: "Acc...0003 (ChumchanRothanak)", network: "Real-time Gross Settlement", direction: "outflow", amount: 0.00, time: "00:00:00", status: "Pending" },
+        { id: "TXN-KN-90218", party: "Acc...0004 (LongLain)", network: "Bakong Transfer Sweep", direction: "inflow", amount: 0.00, time: "00:00:00", status: "Pending" },
+        { id: "TXN-KN-90218", party: "Acc...0005 (PhaychanRothana)", network: "Bakong Transfer Sweep", direction: "inflow", amount: 0.00, time: "00:00:00", status: "Pending" },
+        { id: "TXN-KN-90218", party: "Acc...0006 (HuokaingThara)", network: "Bakong Transfer Sweep", direction: "inflow", amount: 0.00, time: "00:00:00", status: "Pending" },
+        { id: "TXN-KN-90218", party: "Acc...0007 (SanSopheata)", network: "Bakong Transfer Sweep", direction: "inflow", amount: 0.00, time: "00:00:00", status: "Pending" },
+        { id: "TXN-KN-90218", party: "Acc...0008 (SamsoDavin)", network: "Bakong Transfer Sweep", direction: "inflow", amount: 0.00, time: "00:00:00", status: "Pending" },      
+        { id: "TXN-KN-90214", party: "Acc...0009 (Thorn)", network: "Bakong API Link", direction: "outflow", amount: 0.00, time: "00:00:00", status: "Pending" },
+        { id: "TXN-KN-90215", party: "Acc...0010 (Vanneat)", network: "FAST Clearing Node", direction: "inflow", amount: 0.00, time: "00:00:00", status: "Pending" },
+        { id: "TXN-KN-90216", party: "Acc...0012 (Mengly)", network: "Bakong Transfer Sweep", direction: "inflow", amount: 20000000.00, time: "16:34:00", status: "Success" },
+        { id: "TXN-KN-90217", party: "Acc...0013 (Leyu)", network: "National Clearing House", direction: "outflow", amount: 0.00, time: "00:00:00", status: "Pending" },
+        { id: "TXN-KN-90218", party: "Acc...0014 (Sengchhat)", network: "Bakong Transfer Sweep", direction: "inflow", amount: 16000000.00, time: "20:55:11", status: "Success" },      
+        { id: "TXN-KN-90219", party: "Acc...0015 (Chansamnang)", network: "Real-time Gross Settlement", direction: "outflow", amount: 0.00, time: "00:00:00", status: "Pending" },
+        { id: "TXN-KN-90219", party: "Acc...0016 (Nouvichaka)", network: "Real-time Gross Settlement", direction: "outflow", amount: 0.00, time: "00:00:00", status: "Pending" },
+        { id: "TXN-KN-90219", party: "Acc...0017 (Men)", network: "Interbank ISO Gateway", direction: "outflow", amount: 0.00, time: "00:00:00", status: "Pending" },
+        { id: "TXN-KN-90220", party: "Acc...0018 (Raem)", network: "Retail Mobile Gateway", direction: "outflow", amount: 0.00, time: "00:00:00", status: "Pending" }
     ];
 
     /* =========================================================
@@ -178,7 +178,7 @@
     function initializeDashboardData() {
         log("Dashboard active. Injecting financial records into DOM nodes...");
         if (document.getElementById("accountCount")) {
-            document.getElementById("accountCount").textContent = "$2,350,000<";
+            document.getElementById("accountCount").textContent = "$2,350,000";
             document.getElementById("depositTotal").textContent = "$575,000,000";
             document.getElementById("txCount").textContent = "$1,500,000";
         }
