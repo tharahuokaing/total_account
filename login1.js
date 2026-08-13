@@ -45,16 +45,24 @@
     /* =========================================================
        MOCK TRANSACTION SOURCE DATA
     ========================================================= */
-    const MOCK_TRANSACTIONS = [
-        { id: "TXN-90214", account: "Acc...8841 (Thorn)", type: "Bakong Transfer", amount: "$0", time: "00:00:00", status: "Pending" },
-        { id: "TXN-90215", account: "Acc...1092 (Vanneat)", type: "Interbank Pay", amount: "$0", time: "00:00:00", status: "Pending" },
-        { id: "TXN-90216", account: "Acc...4412 (Mengly)", type: "ATM Cash Deposit", amount: "$10,000,000", time: "00:00:00", status: "Success" },
-        { id: "TXN-90217", account: "Acc...4412 (Men)", type: "ATM Cash Withdrawal", amount: "$0", time: "07:30:00", status: "Pending" },
-        { id: "TXN-90218", account: "Acc...4412 (Sengchhat)", type: "ATM Cash Withdrawal", amount: "$0", time: "00:00:00", status: "Pending" },
-        { id: "TXN-90219", account: "Acc...4412 (Huokaing Thara)", type: "ATM Cash Withdrawal", amount: "$0", time: "00:00:00", status: "Pending" },      
-        { id: "TXN-90220", account: "Acc...4412 (ahb)", type: "ATM Cash Withdrawal", amount: "$0", time: "00:00:00", status: "Pending" },   
-        { id: "TXN-90221", account: "Acc...4412 (kuo)", type: "ATM Cash Withdrawal", amount: "$0", time: "00:00:00", status: "Pending" },
-        { id: "TXN-90222", account: "Acc...0029 (Leyu)", type: "Clearing Settlement", amount: "$0", time: "00:00:00", status: "Pending" }
+    const MOCK_TRANSACTIONS = 
+        { id: "TXN-KN-90218", party: "Acc...9912 (SvayMetrey)", network: "Bakong Transfer Sweep", direction: "inflow", amount: 0.00, time: "00:00:00", status: "Pending" },
+        { id: "TXN-KN-90218", party: "Acc...9912 (ChornRothanak)", network: "Bakong Transfer Sweep", direction: "inflow", amount: 0.00, time: "00:00:00", status: "Pending" },
+        { id: "TXN-KN-90219", party: "Acc...5541 (ChumchanRothanak)", network: "Real-time Gross Settlement", direction: "outflow", amount: 0.00, time: "00:00:00", status: "Pending" },
+        { id: "TXN-KN-90218", party: "Acc...9912 (LongLain)", network: "Bakong Transfer Sweep", direction: "inflow", amount: 0.00, time: "00:00:00", status: "Pending" },
+        { id: "TXN-KN-90218", party: "Acc...9912 (PhaychanRothana)", network: "Bakong Transfer Sweep", direction: "inflow", amount: 0.00, time: "00:00:00", status: "Pending" },
+        { id: "TXN-KN-90218", party: "Acc...9912 (HuokaingThara)", network: "Bakong Transfer Sweep", direction: "inflow", amount: 0.00, time: "00:00:00", status: "Pending" },
+        { id: "TXN-KN-90218", party: "Acc...9912 (SanSopheata)", network: "Bakong Transfer Sweep", direction: "inflow", amount: 0.00, time: "00:00:00", status: "Pending" },
+        { id: "TXN-KN-90218", party: "Acc...9912 (SamsoDavin)", network: "Bakong Transfer Sweep", direction: "inflow", amount: 0.00, time: "00:00:00", status: "Pending" },      
+        { id: "TXN-KN-90214", party: "Acc...8841 (Thorn)", network: "Bakong API Link", direction: "outflow", amount: 0.00, time: "00:00:00", status: "Pending" },
+        { id: "TXN-KN-90215", party: "Acc...1092 (Vanneat)", network: "FAST Clearing Node", direction: "inflow", amount: 0.00, time: "00:00:00", status: "Pending" },
+        { id: "TXN-KN-90216", party: "Acc...4412 (Mengly)", network: "Bakong Transfer Sweep", direction: "inflow", amount: 20000000.00, time: "16:34:00", status: "Success" },
+        { id: "TXN-KN-90217", party: "Acc...0029 (Leyu)", network: "National Clearing House", direction: "outflow", amount: 0.00, time: "00:00:00", status: "Pending" },
+        { id: "TXN-KN-90218", party: "Acc...9912 (Sengchhat)", network: "Bakong Transfer Sweep", direction: "inflow", amount: 16000000.00, time: "20:55:11", status: "Success" },      
+        { id: "TXN-KN-90219", party: "Acc...5541 (Chansamnang)", network: "Real-time Gross Settlement", direction: "outflow", amount: 0.00, time: "00:00:00", status: "Pending" },
+        { id: "TXN-KN-90219", party: "Acc...5541 (Nouvichaka)", network: "Real-time Gross Settlement", direction: "outflow", amount: 0.00, time: "00:00:00", status: "Pending" },
+        { id: "TXN-KN-90219", party: "Acc...5541 (Men)", network: "Interbank ISO Gateway", direction: "outflow", amount: 0.00, time: "00:00:00", status: "Pending" },
+        { id: "TXN-KN-90220", party: "Acc...1182 (Raem)", network: "Retail Mobile Gateway", direction: "outflow", amount: 0.00, time: "00:00:00", status: "Pending" }
     ];
 
     /* =========================================================
@@ -203,7 +211,7 @@
                 <div class="dashboard-card">
                     <a href="https://tharahuokaing.github.io/deposit/" style="text-decoration: none; color: inherit; display: block; height: 100%; width: 100%;">
                         <img src="total_deposit.jpg" alt="Deposits Icon" class="card-icon" style="width:150px; height:150px;">
-                        <h3 id="depositTotal">$575,000,000</h3>
+                        <h3 id="depositTotal">$585,000,000</h3>
                         <p>Total Deposits</p>
                         <span class="card-link">View Details</span>
                     </a>
