@@ -51,7 +51,7 @@
         { id: "TXN-KN-90230", party: "Acc...5541 (ChumchanRothanak)", network: "Real-time Gross Settlement", direction: "outflow", amount: 0.00, time: "00:00:00", status: "Pending" },
         { id: "TXN-KN-90231", party: "Acc...9912 (LongLain)", network: "Bakong Transfer Sweep", direction: "inflow", amount: 0.00, time: "00:00:00", status: "Pending" },
         { id: "TXN-KN-90232", party: "Acc...9912 (PhaychanRothana)", network: "Bakong Transfer Sweep", direction: "inflow", amount: 0.00, time: "00:00:00", status: "Pending" },
-        { id: "TXN-KN-90233", party: "Acc...9912 (HuokaingThara)", network: "Bakong Transfer Sweep", direction: "inflow", amount: 1.00, time: "00:00:00", status: "Pending" },
+        { id: "TXN-KN-90233", party: "Acc...9912 (HuokaingThara)", network: "Bakong Transfer Sweep", direction: "inflow", amount: 1.00, time: "00:00:00", status: "Success" },
         { id: "TXN-KN-90234", party: "Acc...9912 (SanSopheata)", network: "Bakong Transfer Sweep", direction: "inflow", amount: 0.00, time: "00:00:00", status: "Pending" },
         { id: "TXN-KN-90235", party: "Acc...9912 (SamsoDavin)", network: "Bakong Transfer Sweep", direction: "inflow", amount: 0.00, time: "00:00:00", status: "Pending" },      
         { id: "TXN-KN-90236", party: "Acc...8841 (Thorn)", network: "Bakong API Link", direction: "outflow", amount: 0.00, time: "00:00:00", status: "Pending" },
