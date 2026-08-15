@@ -171,7 +171,7 @@
         log("Dashboard active. Injecting financial records into DOM nodes...");
         if (document.getElementById("accountCount")) {
             document.getElementById("accountCount").textContent = "$3,350,000.00";
-            document.getElementById("depositTotal").textContent = "$605,000,000.00";
+            document.getElementById("depositTotal").textContent = "$615,000,000.00";
             document.getElementById("txCount").textContent = "$1,500,000.00";
         }
     }
