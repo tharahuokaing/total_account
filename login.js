@@ -184,8 +184,8 @@
         log("Dashboard active. Injecting financial records into DOM nodes...");
         if (document.getElementById("accountCount")) {
             document.getElementById("accountCount").textContent = "$15,350,000.00";
-            document.getElementById("depositTotal").textContent = "$825,000,000.00";
-            document.getElementById("txCount").textContent = "$90,010,000.00";
+            document.getElementById("depositTotal").textContent = "$925,000,000.00";
+            document.getElementById("txCount").textContent = "$122,010,000.00";
         }
     }
 
@@ -216,7 +216,7 @@
                 <div class="dashboard-card">
                     <a href="https://tharahuokaing.github.io/deposit/" style="text-decoration: none; color: inherit; display: block; height: 100%; width: 100%;">
                         <img src="total_deposit.jpg" alt="Deposits Icon" class="card-icon" style="width:150px; height:150px;">
-                        <h3 id="depositTotal">$825,000,000.00</h3>
+                        <h3 id="depositTotal">$925,000,000.00</h3>
                         <p>Total Deposits</p>
                         <span class="card-link">View Details</span>
                     </a>
@@ -226,7 +226,7 @@
                 <div class="dashboard-card">
                     <a href="https://tharahuokaing.github.io/transaction/" style="text-decoration: none; color: inherit; display: block; height: 100%; width: 100%;">
                         <img src="transaction_volumn.jpg" alt="Transactions Icon" class="card-icon" style="width:150px; height:150px;">
-                        <h3 id="txCount">$90,010,000.00</h3>
+                        <h3 id="txCount">$122,010,000.00</h3>
                         <p>Transactions Processed</p>
                         <span class="card-link">View Log</span>
                     </a>
