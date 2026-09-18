@@ -210,7 +210,7 @@
     function initializeDashboardData() {
         log("Dashboard active. Injecting financial records into DOM nodes...");
         if (document.getElementById("accountCount")) {
-            document.getElementById("accountCount").textContent = "$30,350,000.00";
+            document.getElementById("accountCount").textContent = "$40,350,000.00";
             document.getElementById("depositTotal").textContent = "$3,025,000,000.00";
             document.getElementById("txCount").textContent = "$123,010,000.00";
         }
@@ -233,7 +233,7 @@
                 <div class="dashboard-card">
                     <a href="https://tharahuokaing.github.io/bank2/" style="text-decoration: none; color: inherit; display: block; height: 100%; width: 100%;">
                         <img src="total_account.jpg" alt="Accounts Icon" class="card-icon" style="width:150px; height:150px;">
-                        <h3 id="accountCount">$30,350,000.00</h3>
+                        <h3 id="accountCount">$40,350,000.00</h3>
                         <p>Total Accounts</p>
                         <span class="card-link">View Details</span>
                     </a>
